@@ -52,3 +52,6 @@ ul li:hover > a{
         /* color: white;
         text-align: center; */
      }
+img:hover{
+   cursor: pointer; 
+}

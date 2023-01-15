@@ -1,0 +1,15 @@
+.img-width{
+    height: 50%;
+    width: 50%;
+}
+.carousel .thumbs {
+    transition: all .15s ease-in;
+    transform: translate3d(0, 0, 0);
+    position: relative;
+    list-style: none;
+    white-space: nowrap;
+    display: none !important;
+}
+.mt-10{
+    margin-top: 20px;
+}
