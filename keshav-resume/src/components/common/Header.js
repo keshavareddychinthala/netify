@@ -4,7 +4,9 @@ import "./common.css";
 import { useNavigate } from "react-router-dom";
 export const Header = () => {
     const navigate = useNavigate();
-    console.log(navigate,"navifg/atel..")
+    const handleResume=()=>{
+        window.open("https://drive.google.com/file/d/13Jbhfrsc3fi0CP3CxcUN95zNKYOX2ZEw/view")
+    }
     return (
         <div className="row no-gutters header">
             <nav className="navbar navbar-expand-lg">
@@ -31,7 +33,7 @@ export const Header = () => {
                                 <a className="nav-link c-white" href="#" onClick={()=>navigate('/certifications')}>Certifications</a>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link c-white" href="#" onClick={()=>navigate('/resume')}>Resume</a>
+                                <a className="nav-link c-white" onClick={handleResume}>Resume</a>
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link c-white" href="#" onClick={()=>navigate('/connect')}>Connect</a>
