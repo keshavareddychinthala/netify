@@ -1,0 +1,54 @@
+.header{
+    background: #000;
+    color: white !important;
+}
+.ml-10{
+    /* margin-left: 10px; */
+}
+.profile-pic{
+    margin-right: 54px; 
+    border-radius: 20px;
+}
+
+li{
+     margin-left: 10px;
+    margin-right: 10px; 
+}
+.c-white{
+    color:white;
+    font-weight: bold;
+}
+
+li.a{
+    color: white !important;
+}
+ul li:hover > a{
+    background:#21618C ;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white ;
+}
+.c-white:hover{
+    background:#21618C ;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white ;
+}
+
+.profile{
+    margin-left: 21rem;
+}
+    /* li:nth-of-type(3n+2) {
+    background: #21618C;
+    } */
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #21618C;
+        color: white;
+        font-weight: bold;
+        /* color: white;
+        text-align: center; */
+     }
