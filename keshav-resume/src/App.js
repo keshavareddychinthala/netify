@@ -25,11 +25,11 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/aboutme" element={<Home />} />
-          <Route exact path="/certifications" element={<Certifications/>} />
-          <Route exact path="/interests" element={<Interests/>} />
-          <Route exact path="/projects" element={<Projects/>} />
-          <Route exact path="/resume" element={<Resume/>} />
-          <Route exact path="/skills" element={<Skills/>} />
+          <Route exact path="/certifications"element={<Home />}/>
+          <Route exact path="/interests" element={<Home />} />
+          <Route exact path="/projects" element={<Home />} />
+          <Route exact path="/resume" element={<Home />}/>
+          <Route exact path="/skills" element={<Home />} />
         </Routes>
         <Footer />
       </Router>

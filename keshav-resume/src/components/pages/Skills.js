@@ -1,117 +1,22 @@
 import React from "react";
+import "./Skills.css";
 
 export const Skills = () => {
     return (
-        <div>
-            <table>
-                <thead>
-                    <tr>
-                        <td>Skill</td>
-                        <td>Level</td>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>JavaScript</td>
-                        <td><span className="percent">95%</span>
-                            <div className="bar one">
-                                <div className="fill" style={{ "width": "95%" }}></div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>PHP</td>
-                        <td>
-                            <span className="percent">95%</span>
-                            <div className="bar one">
-                                <div className="fill" style={{ "width": "95%" }}></div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Python</td>
-                        <td><span className="percent">35%</span>
-                            <div className="bar one">
-                                <div className="fill" style={{ "width": "35%" }}></div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>VB .Net</td>
-                        <td><span className="percent">99%</span>
-                            <div className="bar one">
-                                <div className="fill" style={{ "width": "98%" }}></div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>C#</td>
-                        <td><span className="percent">98%</span>
-                            <div className="bar one">
-                                <div className="fill" style={{ "width": "98%" }}></div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Java</td>
-                        <td><span className="percent">30%</span>
-                            <div className="bar two">
-                                <div className="fill" style={{ "width": "30%" }}></div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>CSS</td>
-                        <td><span className="percent">95%</span>
-                            <div className="bar one">
-                                <div className="fill" style={{ "width": "95%" }}></div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>HTML5</td>
-                        <td><span className="percent">99%</span>
-                            <div className="bar one">
-                                <div className="fill" style={{ "width": "99%" }}></div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>jQuery</td>
-                        <td><span className="percent">90%</span>
-                            <div className="bar one">
-                                <div className="fill" style={{ "width": "90%" }}></div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>MySQL</td>
-                        <td><span className="percent">95%</span>
-                            <div className="bar one">
-                                <div className="fill" style={{ "width": "95%" }}></div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Node.js</td>
-                        <td><span className="percent">80%</span>
-                            <div className="bar one">
-                                <div className="fill" style={{ "width": "80%" }}></div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td className="last">Wordpress</td>
-                        <td className="last"><span class="percent">55%</span>
-                            <div className="bar one">
-                                <div className="fill" style={{ "width": "55%" }}></div>
-                            </div>
-                        </td>
-                    </tr>
-                </tbody>
-
-            </table>
-        </div>
+        <div className="author-list left-side-widget section" id="intro-services-left" name="Author Skills"><div className="widget LinkList" data-version="2" id="LinkList80">
+            <div className="widget-content">
+                <ul className="skills">
+                    <li className="skill-bar"><span className="skill-name">Angular</span><span className="skill-perfecnt-val">75</span><span className="skill-full-percent"></span><span className="skill-percent" data-percent="75" style={{"display":"inline-block","overflow":"hidden","width":"75%"}}></span></li>
+                    <li className="skill-bar"><span className="skill-name">HTML</span><span className="skill-perfecnt-val">85</span><span className="skill-full-percent"></span><span className="skill-percent" data-percent="85"  style={{"display":"inline-block","overflow":"hidden","width":"85%"}}></span></li>
+                    <li className="skill-bar"><span className="skill-name">CSS</span><span className="skill-perfecnt-val">90</span><span className="skill-full-percent"></span><span className="skill-percent" data-percent="90" style={{"display":"inline-block","overflow":"hidden","width":"90%"}}></span></li>
+                    <li className="skill-bar"><span className="skill-name">JavaScript</span><span className="skill-perfecnt-val">60</span><span className="skill-full-percent"></span><span className="skill-percent" data-percent="60"  style={{"display":"inline-block","overflow":"hidden","width":"65%"}}></span></li>
+                    <li className="skill-bar"><span className="skill-name">Wordpress</span><span className="skill-perfecnt-val">70</span><span className="skill-full-percent"></span><span className="skill-percent" data-percent="70" style={{"display":"inline-block","overflow":"hidden","width":"75%"}}></span></li>
+                    <li className="skill-bar"><span className="skill-name">Drupal</span><span className="skill-perfecnt-val">65</span><span className="skill-full-percent"></span><span className="skill-percent" data-percent="65" style={{"display":"inline-block","overflow":"hidden","width":"75%"}}></span></li>
+                    <li className="skill-bar"><span className="skill-name">ReactJS</span><span className="skill-perfecnt-val">40</span><span className="skill-full-percent"></span><span className="skill-percent" data-percent="40"  style={{"display":"inline-block","overflow":"hidden","width":"75%"}}></span></li>
+                    <li className="skill-bar"><span className="skill-name">Android</span><span className="skill-perfecnt-val">40</span><span className="skill-full-percent"></span><span className="skill-percent" data-percent="40"  style={{"display":"inline-block","overflow":"hidden","width":"75%"}}></span></li>
+                </ul>
+            </div>
+        </div></div>
     )
 }
 export default Skills;
