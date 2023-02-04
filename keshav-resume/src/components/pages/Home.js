@@ -98,7 +98,7 @@ export const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row mt-2 pb-5">
                     <center>
                         <div className="heading-3">Tech I'm familiar with</div>
                     </center>
