@@ -102,28 +102,114 @@ export const Home = () => {
                     <center>
                         <div className="heading-3">Tech I'm familiar with</div>
                     </center>
-                    <div className="skills__list">
-                        <div>HTML5</div>
-                        <div>CSS3</div>
-                        <div>SASS</div>
-                        <div>StoryBook</div>
-                        <div>Bootstrap</div>
-                        <div>Javascript</div>
-                        <div>React.js</div>
-                        <div>Redux</div>
-                        <div>Jest</div>
-                        <div>Webpack</div>
-                        <div>Node.js</div>
-                        <div>Express.js</div>
-                        <div>MongoDB</div>
-                        <div>Firebase</div>
-                        <div>Postgres</div>
-                        <div>Typesccript</div>
-                        <div>Git</div>
-                        <div>MySQL</div>
-                        <div>Adobe XD</div>
-                        <div>Jira</div>
-                    </div>
+                    <table>
+    <thead>
+     <tr>
+      <td>Skill</td>
+      <td>Level</td>      
+     </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>JavaScript</td>
+        <td><span className="percent">95%</span>
+          <div className="bar one">
+            <div className="fill" style={{"width":"95%"}}></div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>PHP</td>
+        <td>
+          <span className="percent">95%</span>
+          <div className="bar one">
+            <div className="fill" style={{"width":"95%"}}></div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>Python</td>
+        <td><span className="percent">35%</span>
+          <div className="bar one">
+            <div className="fill" style={{"width":"35%"}}></div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>VB .Net</td>
+        <td><span className="percent">99%</span>
+          <div className="bar one">
+            <div className="fill" style={{"width":"98%"}}></div>
+          </div>
+        </td>
+      </tr>
+            <tr>
+        <td>C#</td>
+        <td><span className="percent">98%</span>
+          <div className="bar one">
+            <div className="fill" style={{"width":"98%"}}></div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>Java</td>
+        <td><span className="percent">30%</span>
+          <div className="bar two">
+            <div className="fill" style={{"width":"30%"}}></div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td><span className="percent">95%</span>
+          <div className="bar one">
+            <div className="fill" style={{"width":"95%"}}></div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>HTML5</td>
+        <td><span className="percent">99%</span>
+          <div className="bar one">
+            <div className="fill" style={{"width":"99%"}}></div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>jQuery</td>
+        <td><span className="percent">90%</span>
+          <div className="bar one">
+            <div className="fill" style={{"width":"90%"}}></div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>MySQL</td>
+        <td><span className="percent">95%</span>
+          <div className="bar one">
+            <div className="fill" style={{"width":"95%"}}></div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>Node.js</td>
+        <td><span className="percent">80%</span>
+          <div className="bar one">
+            <div className="fill" style={{"width":"80%"}}></div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td className="last">Wordpress</td>
+        <td className="last"><span class="percent">55%</span>
+          <div className="bar one">
+            <div className="fill" style={{"width":"55%"}}></div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+   
+  </table>
                 </div>
             </section>
         </div>
