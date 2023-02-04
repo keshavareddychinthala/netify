@@ -2,9 +2,7 @@
     background: #000;
     color: white !important;
 }
-.ml-10{
-    /* margin-left: 10px; */
-}
+
 .profile-pic{
     margin-right: 54px; 
     border-radius: 20px;
@@ -38,9 +36,6 @@ ul li:hover > a{
 }
 
 
-    /* li:nth-of-type(3n+2) {
-    background: #21618C;
-    } */
     .footer {
         left: 0;
         bottom: 0;
@@ -48,8 +43,6 @@ ul li:hover > a{
         background-color: #21618C;
         color: white;
         font-weight: bold;
-        /* color: white;
-        text-align: center; */
      }
 img:hover{
    cursor: pointer; 
