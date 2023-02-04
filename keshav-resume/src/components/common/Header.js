@@ -10,7 +10,7 @@ export const Header = () => {
     return (
         <div className="row no-gutters header">
             <nav className="navbar navbar-expand-lg">
-                <a className="navbar-brand c-white" href="#" onClick={()=>navigate('/home')}>KeshavaReddy Chinthala</a>
+                <a className="navbar-brand c-white" onClick={()=>navigate('/home')}>KeshavaReddy Chinthala</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -18,25 +18,25 @@ export const Header = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
                     <li className="nav-item active c-white">
-                                <a className="nav-link c-white" href="#"  onClick={()=>navigate('/aboutme')}>About Me</a>
+                                <a className="nav-link c-white"   onClick={()=>navigate('/aboutme')}>About Me</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link c-white" href="#" onClick={()=>navigate('/projects')}>Projects</a>
+                                <a className="nav-link c-white" onClick={()=>navigate('/projects')}>Projects</a>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link c-white" href="#" onClick={()=>navigate('/skills')}>Skills</a>
+                                <a className="nav-link c-white" onClick={()=>navigate('/skills')}>Skills</a>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link c-white" href="#" onClick={()=>navigate('/interests')}>Interests</a>
+                                <a className="nav-link c-white" onClick={()=>navigate('/interests')}>Interests</a>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link c-white" href="#" onClick={()=>navigate('/certifications')}>Certifications</a>
+                                <a className="nav-link c-white" onClick={()=>navigate('/certifications')}>Certifications</a>
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link c-white" onClick={handleResume}>Resume</a>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link c-white" href="#" onClick={()=>navigate('/connect')}>Connect</a>
+                                <a className="nav-link c-white"  onClick={()=>navigate('/connect')}>Connect</a>
                             </li>
                     </ul>
                     <div className="profile">

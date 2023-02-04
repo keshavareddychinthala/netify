@@ -27,12 +27,14 @@ ul li:hover > a{
     border-radius: 20px;
     font-weight: bold;
     color: white ;
+    cursor: pointer;
 }
 .c-white:hover{
     background:#21618C ;
     border-radius: 20px;
     font-weight: bold;
     color: white ;
+    cursor: pointer;
 }
 
 .profile{
@@ -42,7 +44,6 @@ ul li:hover > a{
     background: #21618C;
     } */
     .footer {
-        position: fixed;
         left: 0;
         bottom: 0;
         width: 100%;

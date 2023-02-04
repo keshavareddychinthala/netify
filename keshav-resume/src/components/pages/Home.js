@@ -1,37 +1,131 @@
 import React from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
-import fullstackimg from "../../assets/images/computer-internet.png";
-import cybersecurityimg from "../../assets/images/cyber-security.png";
-import ecommerceimg from "../../assets/images/database.png";
-import "./Home.css"
+import "./Home.css";
+
 export const Home = () => {
+
+
     return (
-        <>
-            <div >
-                <Carousel>
-                    <div>
-                        <img src={fullstackimg} className="img-width" style={{ "height": "350px", "width": "350px" }} />
-                        <p className="legend mt-10">
-                            Having 3.5years of experience in development of applications using react, MERN(Node.js
-                            Express application framework) and MEAN(node js, express frame work and
-                            angular)technologies
-                        </p>
+        <div className="grey-bg container-fluid">
+            <section id="stats-subtitle">
+                <div className="row">
+                    <div className="col-12 mt-3 mb-1">
+                        <h4 className="text-uppercase">Experience</h4>
                     </div>
-                    <div>
-                        <img src={cybersecurityimg} className="img-width" style={{ "height": "350px", "width": "350px" }} />
-                        <p className="legend mt-10">
-                            pace is a web and mobile based application through which is about the cyber security. It
-                            provider a platform to the security team to detect the alerts such as(phishing mails etc.) and helps to
-                            redeem those alerts.
-                        </p>
+                </div>
+
+                <div className="row">
+                    <div className="col-xl-6 col-md-12">
+                        <div className="card overflow-hidden">
+                            <div className="card-content">
+                                <div className="card-body cleartfix">
+                                    <div className="media align-items-stretch">
+                                        <div className="align-self-center">
+                                            <i className="icon-pencil primary font-large-2 mr-2"></i>
+                                        </div>
+                                        <div className="media-body">
+                                            <h4>Leetcode  Count</h4>
+                                            {/* <span>Monthly blog posts</span> */}
+                                        </div>
+                                        <div className="align-self-center">
+                                            <h1>300</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <img src={ecommerceimg} className="img-width" style={{ "height": "350px", "width": "350px" }} />
-                        <p className="legend mt-10">Legend 3</p>
+
+                    <div className="col-xl-6 col-md-12">
+                        <div className="card">
+                            <div className="card-content">
+                                <div className="card-body cleartfix">
+                                    <div className="media align-items-stretch">
+                                        <div className="align-self-center">
+                                            <i className="icon-speech warning font-large-2 mr-2"></i>
+                                        </div>
+                                        <div className="media-body">
+                                            <h4>Total Projects</h4>
+                                        </div>
+                                        <div className="align-self-center">
+                                            <h1>6</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </Carousel>
-            </div>
-        </>
+                </div>
+                <div className="row">
+                    <div className="col-md-12">
+                        <div className="card">
+                            <div className="card-content">
+                                <div className="card-body cleartfix">
+                                    <div className="media align-items-stretch">
+                                        <div className="align-self-center">
+                                            {/* <h1 className="mr-2">Experience</h1> */}
+                                        </div>
+                                        <div className="media-body">
+                                            My name is  KeshavaReddy Chinthala, I am a Full Stack Web Developer. An Open Source enthusiast and a Computer Science student from India.
+
+                                            I love working on new and exciting technologies emerging nowadays. I have good work experience as a MERN Stack Developer in  where I was core member of the development team and done quite some contribution to open source as well.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-4 col-sm-6 item">
+                        <div className="card item-card card-block">
+                            <img src="https://static.pexels.com/photos/7096/people-woman-coffee-meeting.jpg" alt="Photo of sunset" />
+                            <h5 className="item card-title mt-3 mb-3">Problem Solving</h5>
+                            <p className="card-text card-subtitle">I love solving problems whether programming problems or real life problems.</p>
+                        </div>
+                    </div>
+                    <div className="col-md-4 col-sm-6 item">
+                        <div className="card item-card card-block">
+                            <img src="https://static.pexels.com/photos/7357/startup-photos.jpg" alt="Photo of sunset" />
+                            <h5 class="card-title  mt-3 mb-3">Web Development</h5>
+                            <p class="card-text card-subtitle">I am a Full Stack Web Developer (MERN) and have quite some experience in it as well.</p>
+                        </div>
+                    </div>
+                    <div className="col-md-4 col-sm-6 item">
+                        <div className="card item-card card-block">
+                            <img src="https://static.pexels.com/photos/262550/pexels-photo-262550.jpeg" alt="Photo of sunset" />
+                            <h5 className="card-title card-title  mt-3 mb-3">Web Design</h5>
+                            <p className="card-text card-subtitle">I love designs and it's the first step before creating any website as I can give layout to my imagination.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <center>
+                        <div className="heading-3">Tech I'm familiar with</div>
+                    </center>
+                    <div className="skills__list">
+                        <div>HTML5</div>
+                        <div>CSS3</div>
+                        <div>SASS</div>
+                        <div>StoryBook</div>
+                        <div>Bootstrap</div>
+                        <div>Javascript</div>
+                        <div>React.js</div>
+                        <div>Redux</div>
+                        <div>Jest</div>
+                        <div>Webpack</div>
+                        <div>Node.js</div>
+                        <div>Express.js</div>
+                        <div>MongoDB</div>
+                        <div>Firebase</div>
+                        <div>Postgres</div>
+                        <div>Typesccript</div>
+                        <div>Git</div>
+                        <div>MySQL</div>
+                        <div>Adobe XD</div>
+                        <div>Jira</div>
+                    </div>
+                </div>
+            </section>
+        </div>
     )
 }

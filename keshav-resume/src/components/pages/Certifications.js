@@ -3,7 +3,7 @@ import React from "react";
 export const Certifications=()=>{
     return(
         <div>
-            Certifications
+            still in development....
         </div>
     )
 }

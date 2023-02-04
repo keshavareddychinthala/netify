@@ -1,10 +1,11 @@
 import React from "react";
 
 export const Aboutme = () => {
+    console.log("aboutme");
     return (
         <>
             <div >
-             <p>Aboutme</p>
+            still in development....
             </div>
         </>
     )
