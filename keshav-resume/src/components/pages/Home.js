@@ -7,13 +7,13 @@ export const Home = () => {
     return (
         <div className="grey-bg container-fluid">
             <section id="stats-subtitle">
-                <div className="row">
+                <div className="row ">
                     <div className="col-12 mt-3 mb-1">
                         <h4 className="text-uppercase">Experience</h4>
                     </div>
                 </div>
 
-                <div className="row">
+                <div className="row pb-2 pt-2">
                     <div className="col-xl-6 col-md-12">
                         <div className="card overflow-hidden">
                             <div className="card-content">
@@ -55,7 +55,7 @@ export const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row pb-2 pt-2">
                     <div className="col-md-12">
                         <div className="card">
                             <div className="card-content">
@@ -75,7 +75,7 @@ export const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row pb-2 pt-2">
                     <div className="col-md-4 col-sm-6 item">
                         <div className="card item-card card-block">
                             <img src="https://static.pexels.com/photos/7096/people-woman-coffee-meeting.jpg" alt="Photo of sunset" />
